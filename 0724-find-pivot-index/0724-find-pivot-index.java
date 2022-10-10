@@ -1,6 +1,9 @@
 class Solution {
     public int pivotIndex(int[] nums) {
-        int sum = Arrays.stream(nums).sum();
+        int sum=0;
+        
+        for(int x:nums)
+            sum+=x;
         // check 0 index now
         if((sum-nums[0]) == 0)
             return 0;
