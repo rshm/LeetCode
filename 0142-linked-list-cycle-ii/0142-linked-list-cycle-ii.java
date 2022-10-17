@@ -24,7 +24,6 @@ public class Solution {
         }
         
         if(fast==null || fast.next == null || fast.next.next == null){
-            System.out.println("no cycle1");
             return null;
             
         }
