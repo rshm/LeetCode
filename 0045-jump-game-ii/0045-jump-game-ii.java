@@ -1,7 +1,5 @@
 class Solution {
     public int jump(int[] nums) {
-        int goal = nums.length-1;
-     
         int jump =0;
         int furthest=0;
         int l=0 , r=0; 
